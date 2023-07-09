@@ -1,0 +1,22 @@
+
++ configure " php.ini "
+- upload_max_filesize = 1024M
+- post_max_size = 1024M
+- max_execution_time = 5000 
+- max_input_time = 5000 
+- memory_limit = 1024M
+- default_socket_timeout = 600
+
++ configure " my.ini " Mysql
+# find PATH to file
+!include"C:/PATH/mysql/my.ini" 
+# wait_timeout
+wait_timeout = 3600
+# max_allowed_packet
+max_allowed_packet = 10000000
+
++ Restart service Mysql and Apache
+=============================
+
+I checked and update config above in my local.
+I import database without any error
