@@ -17,6 +17,10 @@ max_allowed_packet = 10000000
 
 + Restart service Mysql and Apache
 =============================
+Requirement:
+  . Apache
+  . phpmyadmin
+  . Mysql
 
 I checked and update config above in my local.
 I import database without any error
